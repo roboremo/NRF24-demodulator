@@ -2,7 +2,8 @@
 Sniff NRF24L01 (and clones) packets and veiw bit-level structure using GNU Radio.  
 GRC flow inspired from here: https://wiki.bitcraze.io/misc:hacks:hackrf  
   
-## Hardware setup
+## Hardware setup  
+Inspired from http://blog.cyberexplorer.me/2014/01/sniffing-and-decoding-nrf24l01-and.html  
 Have a NRF24L01+ sending something on channel 80 (2480MHz), at 1Mbps  
 The RF signal is picked-up using a MMDS down converter  
 (I use one with LO = 1838MHz and input frequency 2500 to 2700MHz)  
